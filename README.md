@@ -36,9 +36,9 @@ Home Loan Application -
 6. Delete that src folder 
 7. Copy the src folder downloaded from git and paste there
 8. Then run <br>
-          * a. npm i bootstrap  <br>
-          * b. ng add @angular/material <br>
-          * c. ng serve o 
+           a. npm i bootstrap  <br>
+           b. ng add @angular/material <br>
+           c. ng serve o 
           
           spring and vscode must run simultaneously
           
