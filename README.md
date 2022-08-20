@@ -17,6 +17,7 @@ Home Loan Application -
 5. Now select the extracted folder  
 6. Tick the checkbox in pom.xml file 
 7. Now go to the LTI HOME LOAN in side pannel right click 
+8. <br>
         * build path-- configure build path
         * remove the ojdbc6 jar and import ojdbc6.jar from your system 
        
