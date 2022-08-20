@@ -32,13 +32,13 @@ Home Loan Application -
 2. Extract that zip 
 3. Now open VScode 
 4. open terminal and then create new project by ng new HomeLoan
-5. Now the project will be created with src folder 
-6. delete that src folder 
-7. copy the src folder downloaded from git and paste there
-8. then run
-          a. npm i bootstrap 
-          b. ng add @angular/material
-          c. ng serve o 
+5. Now the project will be creating the src folder 
+6. Delete that src folder 
+7. Copy the src folder downloaded from git and paste there
+8. Then run
+          * a. npm i bootstrap 
+          * b. ng add @angular/material
+          * c. ng serve o 
           
           spring and vscode must run simultaneously
           
