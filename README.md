@@ -9,7 +9,7 @@ Home Loan Application -
 
 # Steps to import and run this Home loan Project 
 
-# *Backend
+# Backend
 1. Download the Backend folder 
 2. Extract that zip 
 3. Import zip in Eclipse
@@ -26,7 +26,7 @@ Home Loan Application -
                 Backend finally completed and SPRING will start 
                 
                 
-# *Frontend   
+# Frontend   
 
 1. Download the frontend folder 
 2. Extract that zip 
