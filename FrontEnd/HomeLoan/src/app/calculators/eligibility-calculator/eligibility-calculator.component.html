@@ -1,0 +1,31 @@
+<body background="https://envato-shoebox-0.imgix.net/d268/41d1-7245-4cc7-
+a6f4-164bda0dddfd/0G2A2997.jpg?auto=compress%2Cformat&fit=max&mark=https%
+3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign
+=center%2Cmiddle&markalpha=18&w=1000&s=7411519b8292e3f89d1bea9a7049a5c3">
+  
+  <div class="container p-4 mx-8">
+    <form #eligibilityForm="ngForm" (ngSubmit)="onSubmit(eligibilityForm.value)">
+      <div class="form-group">
+        <label for="monthlyIncome">Monthly Income</label>
+        <input type="number" class="form-control mb-4" name="monthlyIncome" [ngModel]="monthlyIncome" />
+      </div>
+      <button type="submit" class="btn btn-primary mb-4">Calculate</button>
+      <div *ngIf="">
+      </div>
+      <div *ngIf="eligibileLoanAmount" class="card">
+        <div class="card-body">
+          <h3 class="card-body">Your Home Loan Eligibility is &#8377; {{ eligibileLoanAmount }}</h3>
+        </div>
+      </div>
+      <div *ngIf="eligibileLoanAmount" class="mt-4">
+      
+      </div>
+    </form>
+  </div>
+
+
+</body>
+
+
+
+

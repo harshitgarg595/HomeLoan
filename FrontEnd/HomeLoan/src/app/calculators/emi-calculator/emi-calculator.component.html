@@ -1,0 +1,30 @@
+<body background="https://images.unsplash.com/photo-1625225233840-695456021cde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80">
+
+<div class="container p-4">
+    <form #emiForm="ngForm" (ngSubmit)="onSubmit(emiForm.value)">
+      <div class="form-group">
+        <label for="loanAmount">Loan Amount</label>
+        <input type="number" class="form-control mb-4" name="loanAmount" [ngModel]="loanAmount" />
+      </div>
+      <div class="form-group">
+        <label for="tenureInMonths">Tenure in Months</label>
+        <input type="number" class="form-control mb-4" name="tenureInMonths" [ngModel]="tenureInMonths" />
+      </div>
+      <div class="form-group mb-4">
+        <label for="interest">Interest 8.5%</label>
+      </div>
+      <button type="submit" class="btn btn-primary mb-4">Calculate</button>
+      <div *ngIf="emi" class="card">
+        <div class="card-body">
+          <h3 class="card-title">
+            EMI is &#8377; {{ emi }}
+          </h3>
+        </div>
+      </div>
+      <div *ngIf="emi" class="mt-4">
+      
+      </div>
+    </form>
+  </div>
+</body>  
+  
