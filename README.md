@@ -1,2 +1,8 @@
 # HomeLoan
 LTI project 
+Home Loan Application -
+# FRONT END – ANGULAR 8
+# BACK END – SPRING BOOT
+# DATABASE- ORACLE 
+# API TESTING TOOL USED- POSTMAN
+
