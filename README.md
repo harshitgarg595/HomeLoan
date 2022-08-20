@@ -23,7 +23,7 @@ Home Loan Application -
 8. Now Backend is complete just check the application.properties and give your id and password of database 
 9. Now open the LtiHomeLoanApplication.java from com.lti and right click then run as application 
 
-                backendend finally completed and SPRING will start 
+                Backend finally completed and SPRING will start 
                 
                 
 * Frontend                
