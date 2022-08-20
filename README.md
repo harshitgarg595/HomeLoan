@@ -16,9 +16,8 @@ Home Loan Application -
        * File--import--Existing maven project 
 5. Now select the extracted folder  
 6. Tick the checkbox in pom.xml file 
-7. Now go to the LTI HOME LOAN in side pannel right click 
-8. <br>
-        * build path-- configure build path
+7. Now go to the LTI HOME LOAN in side pannel right click <br>
+        * build path-- configure build path <br>
         * remove the ojdbc6 jar and import ojdbc6.jar from your system 
        
 8. Now Backend is complete just check the application.properties and give your id and password of database 
@@ -36,9 +35,9 @@ Home Loan Application -
 5. Now the project will be creating the src folder 
 6. Delete that src folder 
 7. Copy the src folder downloaded from git and paste there
-8. Then run
-          * a. npm i bootstrap 
-          * b. ng add @angular/material
+8. Then run <br>
+          * a. npm i bootstrap  <br>
+          * b. ng add @angular/material <br>
           * c. ng serve o 
           
           spring and vscode must run simultaneously
